@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+       .clear {clear: both;
+        }
+        body{
+            background-image: url(mm.jpg);
+            background-size: cover;
+        }
+        #header {
+        margin-top: 50px;
+		text-align: center;
+	    }
+
+		#header h1 {
+			margin:0.25em ;
+            font-family: 'Gugi';
+		}
+		#header p {
+			font-size: 1.25em;
+			letter-spacing: -0.025em;
+            font-family: 'Gugi';
+		}
+
+		#header.alt {
+			padding: 4em ;
+		}
+
+        .logo {
+           
+            display: block;
+			margin: 0 0 1.5em 0;        
+        }
+        nav {
+            position: fixed;
+         left: 0;
+         right: 0;
+         top: 0;
+         height: 4.2rem;
+         background: lightgray;
+         line-height: 30px;
+         text-align: center;
+         background-color: rgba(240, 221, 146, .6);       
+        }
+        nav li {
+            display: inline;
+            margin: 0 65px 65px 0;
+        }
+        #page {
+            width: 1010px;
+            margin: auto;
+            border: solid 0px #cccccc;
+        }
+        section {
+            float: left;
+            margin-top: 00px;
+            border-top: solid 2px #cccccc;
+            width: 965px;
+            height: 500px;
+            background-color: rgb(240, 216, 166, .6);
+        }
+        footer {
+            width: 965px;
+            height: 90px;
+            margin-top: 90px;
+            font-family: 'Dongle';
+            font-size: 25px;
+        }
+        #address {
+           float: left;
+           margin: 30px 0 60 20px;
+        }
+        #phone {
+           float: left;
+           margin: 30px 0 60 60px;
+           padding-left: 150px;
+           padding-right: 40px;
+        }
+        #email {
+            float: left;
+            margin: 30 0 0 120px;
+            padding-bottom: 50px;
+            padding-left: 200px;
+        }
+        #army{
+            padding-left: 40px;
+            font-family: 'Dongle';
+            font-size: 29px;
+        }
+        #navy{
+            padding-left: 40px;
+            font-family: 'Dongle';
+            font-size: 29px;
+        }
+        #marine{
+            padding-left: 40px;
+            font-family: 'Dongle';
+            font-size: 29px;
+        }
+        #airforce{
+            padding-left: 40px;
+            font-family: 'Dongle';
+            font-size: 29px;
+        }
+        #as{
+            float: right;
+            padding-right: 110px;
+            width: 200px;
+            height: 200px;
+        }
+        #ns{
+            float: right;
+            padding-right: 110px;
+            width: 200px; 
+            height: 200px;
+        }
+        #ms{
+            float: right;
+            padding-right: 110px;
+            width: 200px; 
+            height: 200px;
+        }
+        #as{
+            float: right;
+            padding-right: 110px;
+            width: 200px; 
+            height: 200px;
+        }
+        button{
+		border-radius: 6px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 80;
+		height: 1.75em;
+		line-height: 1.75em;
+		min-width: 7.15em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+        background-color: rgba(255, 221, 146, 0.6);
+        font-family: 'Dongle';
+            font-size: 20px;
+	}
+    .but{
+        background-color: rgba(240, 221, 146, 0.03);
+    }
+    #fb{
+        float:right;
+        width: 45px;
+        height: 45px;
+        padding-top: 25px;
+        padding-left: 80px;
+    }
+    #ig{
+        float: right;
+        width: 45px;
+        height: 45px;
+        padding-top: 25px;
+        padding-left: 80px;  
+    }
+    #ins{
+        border-radius: 0px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 0;
+		height: 0em;
+		line-height: 0em;
+		min-width: 0em;
+		padding: 0em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+    }
+    #fa{
+        border-radius: 0px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 0;
+		height: 0em;
+		line-height: 0em;
+		min-width: 0em;
+		padding: 0em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+    }
+   
+   
+        
+</style>
+</head>
+<body id="page">
+    <header id="header" class="alt">
+        <span class="logo"><img src="military_tech_FILL0_wght700_GRAD200_opsz48.png"  width="70" height="70" alt=" "/></span>
+        <h1>미군의 소개</h1>
+        <p>미군의 관한 모든 것을 알려드립니다!<br>
+    </header>
+    <div class="clear"></div>
+      <nav>
+        <ul>
+            <li><a href="#army"><button class="but">미 육군에 대해</button></a></li>
+            <li><a href="#navy"><button class="but">미 해군에 대해</button></a></li>
+            <li><a href="#marine"><button class="but">미 해병대에 대해</button></a></li>
+            <li><a href="#airforce"><button class="but">미 공군에 대해</button></a></li>
+        </ul>
+    </nav>
+    <div class="clear"></div>
+    <section id="army">
+        <h1>미 육군에 대해</h1><img id="as" src="army.svg">
+        <p>1776년 6월 14일에 창설되었고 미 국방부와 미 육군부에 소속되어있다.<br>
+        역할은 지상전이고 본부는 미국 버지니아 주 펜타곤에 있다.<br>
+        군의 규모는 정규군 485,000명 주방위군 336,000명 예비군 189,500명이다.<br>
+        표어는 This We'll Defend!, 한국어로 우리가 지킨다!이고 <br>
+        현 육군장관과 육군참모총장은 크리스틴 워머스, 제임스 매콘빌 대장이다.</p>
+       <a href="army.html" target="blank"><button>더 알아보기</button></a>
+    </section> 
+    <section id="navy">
+        <h1>미 해군에 대해</h1><img id="ns" src="navy.svg">
+        <p>1775년 10월 13일에 창설되었고 미 국방부 미 해군부에 소속되어있다.<br>
+        역할은 해상전이고 본부는 미국 버지니아 주 펜타곤에있다.<br> 
+        군의 규모는 정규군 349,593명 예비군 101,583명이다.<br>
+        표어는 Semper Fortis, 한국어로 항상 용감하게 이고<br>
+        현 해군장관과 해군참모총장은 카를로스 델 토로, 마이클 길데이 대장이다.</p>
+        <a href="navy.html" target="blank"><button>더 알아보기</button></a>
+    </section>
+    <section id="marine">
+        <h1>미 해병대에 대해</h1><img id="ms" src="marine.svg">
+        <p>1775년 11월 10일에 창설되었고 미 국방부 미 해군부에 소속되어있다.<br>
+        역할은 상륙전, 원정전, 항공전이고 본부는 미국 버지니아주 펜타곤에있다.<br>
+        군의 규모는 상비군 182,064명 예비역 38,500명 항공기 1304대이다.<br>
+        표어는 Semper Fidelis, 한국어로 언제나 충성이고<br>
+        해군장관과 해병대사령관은 카를로스 델 토로, 데이비드 버거 대장이다.</p>
+        <a href="marine.html" target="blank"><button>더 알아보기</button></a>
+    </section>
+    <section id="airforce">
+        <h1>미 공군에 대해</h1><img id="as" src="air.svg">
+        <p>1947년 9월 18일에 창설되었고 미 국방부 미 공군부에 소속되어있다.<br>
+        역할은 항공전, 사이버전이고 본부는 미국 버지니아주 펜타곤에있다.<br> 
+        군의 규모는 정규군 350,000명 주방위군 110,000명 예비군 69,056명이다.<br>
+        표어는 Aim High .. Fly - Fight -Win!, 한국어로 높이 겨냥하고 .. 날아서 - 싸우고 - 이겨라!<br>
+        이고 공군장관과 공군참모총장은 프랭크 켄달, 찰스 브라운 대장이다.</p>
+        <a href="airforce.html" target="blank"><button>더 알아보기</button></a>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <h3>저와 함께 일 하실분 연락 바람</h3>
+        <div id='address'>
+            <h3>주소</h3> <p>서울특별시 관악구 oo동 00길-00</p>
+        </div>
+        <div id="email">
+            <h4>이메일</h4> <p>0923kth@naver.com</p>
+        </div>
+        <div id='phone'>
+            <h4>전화번호</h4> <p>000-000-000</p>
+            </div>
+        <div id="facebook"><a href="https://www.facebook.com/profile.php?id=100011761602140" target="blank"><button id="fa"><img id="fb" src="facebook.png"></button></a></div>
+        <div id="instargram"><button id="ins"><a href="https://www.instagram.com/jji._.tae_03/" target="_blank"><img id="ig" src="instargram.png"></button></a></div>
+     </footer>
+          
+    
+ 
+</body>
+</html>
